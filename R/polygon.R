@@ -4,5 +4,6 @@
 #' @name polygon
 #'
 #' @import dplyr
+#' @import httr
 #' @import jsonlite
 NULL
