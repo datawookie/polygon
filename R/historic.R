@@ -1,6 +1,3 @@
-# https://api.polygon.io/v1/historic/forex/AUD/USD/2018-2-2?limit=100&apiKey=KkbmapFGTg0OMv_CNqaMRUfdhiSJ4qzdi5DELl
-# https://api.polygon.io/v1/historic/forex/AUD/USD/2018-2-2?limit=100&apiKey=KkbmapFGTg0OMv_CNqaMRUfdhiSJ4qzdi5DELl
-
 #' Title
 #'
 #' @param from
