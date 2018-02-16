@@ -4,10 +4,10 @@
 \alias{historic_forex}
 \title{Title}
 \usage{
-historic_forex(from, to, date, limit = 100)
+historic_forex(pair, date, limit = 100)
 }
 \arguments{
-\item{date}{}
+\item{limit}{}
 }
 \description{
 Title
