@@ -12,3 +12,6 @@ historic_forex(pair, date, limit = 100)
 \description{
 Title
 }
+\examples{
+historic_forex("AUD/USD", "2018-02-02", limit = 20)
+}

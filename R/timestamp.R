@@ -1,7 +1,3 @@
-# Display time with millisecond precision.
-#
-options(digits.secs = 3)
-
 #' Title
 #'
 #' @param msec milliseconds since the epoch

@@ -8,3 +8,4 @@ print(meta_symbols())
 print(meta_currency_symbols())
 
 historic_forex("AUD/USD", "2018-02-02", limit = 20)
+last_quote_forex("AUD/USD")

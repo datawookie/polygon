@@ -23,5 +23,5 @@ historic_forex <- function(pair, date, limit = 100) {
       timestamp = timestamp(timestamp),
       pair = pair
     ) %>%
-    select(time = timestamp, pair, everything())
+    select(time = timestamp, pair, bid, ask)
 }

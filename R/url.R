@@ -1,4 +1,4 @@
-create_url <- function(endpoint, parameters) {
+create_url <- function(endpoint, parameters = NULL) {
   url = paste0("https://api.polygon.io/", endpoint)
 
   if (length(parameters)) {
