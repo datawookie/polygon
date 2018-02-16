@@ -1,3 +1,7 @@
+# Display time with millisecond precision.
+#
+options(digits.secs = 3)
+
 #' Title
 #'
 #' @param msec milliseconds since the epoch
@@ -7,7 +11,5 @@
 #'
 #' @examples
 timestamp <- function(msec) {
-  # TODO: Handle fractional component.
-  sec = msec %/% 1000
-  as.POSIXct(sec, , origin="1970-01-01")
+  as.POSIXct(msec / 1000, origin="1970-01-01")
 }
