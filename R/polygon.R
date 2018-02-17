@@ -6,6 +6,7 @@
 #' @import dplyr
 #' @import httr
 #' @import jsonlite
+#' @importFrom stats setNames
 NULL
 
 # Stops R CMD check from complaining "no visible binding for global variable ‘.’".
