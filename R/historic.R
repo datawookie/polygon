@@ -1,10 +1,10 @@
-#' Title
+#' Retrieve historic data for a currency pair
 #'
-#' @param pair
-#' @param date
-#' @param limit
+#' @param pair Currency pair
+#' @param date Date
+#' @param limit Number of records to retrieve
 #'
-#' @return
+#' @return A data frame
 #' @export
 #'
 #' @examples

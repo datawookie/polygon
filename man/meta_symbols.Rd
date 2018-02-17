@@ -2,10 +2,13 @@
 % Please edit documentation in R/meta.R
 \name{meta_symbols}
 \alias{meta_symbols}
-\title{Title}
+\title{List of supported stocks}
 \usage{
 meta_symbols()
 }
+\value{
+A data frame
+}
 \description{
-Title
+List of supported stocks
 }

@@ -9,6 +9,12 @@ set_api_key(api_key)
 \arguments{
 \item{api_key}{}
 }
+\value{
+None
+}
 \description{
 Title
+}
+\examples{
+set_api_key("KkbzopFGTg3PMv_CNqaMRUfdhiSJ7rzdi9DELl")
 }

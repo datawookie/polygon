@@ -2,15 +2,22 @@
 % Please edit documentation in R/historic.R
 \name{historic_forex}
 \alias{historic_forex}
-\title{Title}
+\title{Retrieve historic data for a currency pair}
 \usage{
 historic_forex(pair, date, limit = 100)
 }
 \arguments{
-\item{limit}{}
+\item{pair}{Currency pair}
+
+\item{date}{Date}
+
+\item{limit}{Number of records to retrieve}
+}
+\value{
+A data frame
 }
 \description{
-Title
+Retrieve historic data for a currency pair
 }
 \examples{
 \dontrun{

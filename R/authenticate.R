@@ -2,10 +2,11 @@
 #'
 #' @param api_key
 #'
-#' @return
+#' @return None
 #' @export
 #'
 #' @examples
+#' set_api_key("KkbzopFGTg3PMv_CNqaMRUfdhiSJ7rzdi9DELl")
 set_api_key <- function(api_key) {
   if (api_key == "") {
     stop("Invalid API key!", call. = FALSE)

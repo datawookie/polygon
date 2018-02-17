@@ -2,13 +2,19 @@
 % Please edit documentation in R/timestamp.R
 \name{timestamp}
 \alias{timestamp}
-\title{Title}
+\title{Converts numeric timestamp into POSIXct}
 \usage{
 timestamp(msec)
 }
 \arguments{
 \item{msec}{milliseconds since the epoch}
 }
+\value{
+POSIXct
+}
 \description{
-Title
+Converts numeric timestamp into POSIXct
+}
+\examples{
+timestamp(1517529600225)
 }

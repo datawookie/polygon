@@ -15,3 +15,9 @@ check_currency_symbol(pair)
 \description{
 Checks whether currency pair is supported.
 }
+\examples{
+\dontrun{
+check_currency_symbol("GBP/USD")
+check_currency_symbol("USD/GBP")
+}
+}

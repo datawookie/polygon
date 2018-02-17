@@ -1,20 +1,16 @@
-#' Title
+#' List of supported stocks
 #'
-#' @return
+#' @return A data frame
 #' @export
-#'
-#' @examples
 meta_symbols <- function() {
   url = create_url("v1/meta/symbols", list(sort = "symbol", perpage = 50, page = 1))
   GET(url) %>% content("text") %>% fromJSON() %>% .$symbols
 }
 
-#' Title
+#' List of supported currency symbols
 #'
-#' @return
+#' @return A vector
 #' @export
-#'
-#' @examples
 meta_currency_symbols <- function() {
   url = create_url("v1/meta/currency-symbols", list())
   GET(url) %>% content("text") %>% fromJSON()
@@ -27,6 +23,10 @@ meta_currency_symbols <- function() {
 #' @return
 #'
 #' @examples
+#' \dontrun{
+#' check_currency_symbol("GBP/USD")
+#' check_currency_symbol("USD/GBP")
+#' }
 check_currency_symbol <- function(pair) {
   if (is.null(polygon_env$currency_symbols)) {
     polygon_env$currency_symbols <- meta_currency_symbols()

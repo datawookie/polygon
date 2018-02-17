@@ -2,10 +2,13 @@
 % Please edit documentation in R/meta.R
 \name{meta_currency_symbols}
 \alias{meta_currency_symbols}
-\title{Title}
+\title{List of supported currency symbols}
 \usage{
 meta_currency_symbols()
 }
+\value{
+A vector
+}
 \description{
-Title
+List of supported currency symbols
 }

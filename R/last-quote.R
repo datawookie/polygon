@@ -1,8 +1,8 @@
-#' Title
+#' Retrieve last quote for a currency pair
 #'
-#' @param pair
+#' @param pair Currency pair
 #'
-#' @return
+#' @return A data frame
 #' @export
 #'
 #' @examples

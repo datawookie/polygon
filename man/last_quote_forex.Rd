@@ -2,15 +2,18 @@
 % Please edit documentation in R/last-quote.R
 \name{last_quote_forex}
 \alias{last_quote_forex}
-\title{Title}
+\title{Retrieve last quote for a currency pair}
 \usage{
 last_quote_forex(pair)
 }
 \arguments{
-\item{pair}{}
+\item{pair}{Currency pair}
+}
+\value{
+A data frame
 }
 \description{
-Title
+Retrieve last quote for a currency pair
 }
 \examples{
 \dontrun{
