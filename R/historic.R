@@ -8,7 +8,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' historic_forex("AUD/USD", "2018-02-02", limit = 20)
+#' }
 historic_forex <- function(pair, date, limit = 100) {
   check_api_key()
   check_currency_symbol(pair)

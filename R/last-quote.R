@@ -6,7 +6,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' last_quote_forex("AUD/USD")
+#' }
 last_quote_forex <- function(pair) {
   check_api_key()
   check_currency_symbol(pair)
