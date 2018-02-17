@@ -14,3 +14,4 @@ Imports:
     dplyr,
     httr,
     jsonlite
+Suggests: testthat
