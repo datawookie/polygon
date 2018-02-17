@@ -1,5 +1,3 @@
-polygon_env <- new.env()
-
 #' Title
 #'
 #' @param api_key
@@ -13,4 +11,13 @@ set_api_key <- function(api_key) {
     stop("Invalid API key!", call. = FALSE)
   }
   polygon_env$api_key <- api_key
+}
+
+check_api_key <- function() {
+  if (is.null(polygon_env$api_key)) {
+    stop("No API key has been set. Please call set_api_key()!", call. = FALSE)
+    FALSE
+  } else {
+    TRUE
+  }
 }
