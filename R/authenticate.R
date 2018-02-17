@@ -1,6 +1,6 @@
 #' Title
 #'
-#' @param api_key
+#' @param api_key API key
 #'
 #' @return None
 #' @export

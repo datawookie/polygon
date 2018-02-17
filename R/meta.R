@@ -18,7 +18,7 @@ meta_currency_symbols <- function() {
 
 #' Checks whether currency pair is supported.
 #'
-#' @param pair
+#' @param pair Currency pair
 #'
 #' @return
 #'
