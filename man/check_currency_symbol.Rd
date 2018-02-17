@@ -7,7 +7,7 @@
 check_currency_symbol(pair)
 }
 \arguments{
-\item{pair}{}
+\item{pair}{Currency pair}
 }
 \value{
 

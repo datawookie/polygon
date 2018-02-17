@@ -7,7 +7,7 @@
 set_api_key(api_key)
 }
 \arguments{
-\item{api_key}{}
+\item{api_key}{API key}
 }
 \value{
 None
