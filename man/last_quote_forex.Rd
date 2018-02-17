@@ -13,5 +13,7 @@ last_quote_forex(pair)
 Title
 }
 \examples{
+\dontrun{
 last_quote_forex("AUD/USD")
+}
 }
