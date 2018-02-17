@@ -5,7 +5,9 @@ create_url <- function(endpoint, parameters = NULL) {
     parameters = sapply(names(parameters), function(key) paste0(key, "=", parameters[[key]]))
   }
   #
-  parameters = c(parameters, paste("apiKey", polygon_env$api_key, sep = "="))
+  if (!is.null(polygon_env$api_key)) {
+    parameters = c(parameters, paste("apiKey", polygon_env$api_key, sep = "="))
+  }
 
   paste(url, paste(parameters, collapse = "&"), sep = "?")
 }

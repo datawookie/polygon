@@ -9,12 +9,12 @@
 #' last_quote_forex("AUD/USD")
 last_quote_forex <- function(pair) {
   check_api_key()
+  check_currency_symbol(pair)
   #
   from_to = strsplit(pair, "/")[[1]]
   #
   url = paste("v1/last_quote/currencies", from_to[1], from_to[2], sep = "/")
   url = create_url(url)
-  print(url)
   #
   result = GET(url) %>% content("text") %>% fromJSON()
   #

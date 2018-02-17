@@ -8,8 +8,13 @@
 #' @import jsonlite
 NULL
 
-.onLoad <- function(libname, pkgname){
+polygon_env <- new.env()
+
+.onLoad <- function(libname, pkgname) {
   # Display time with millisecond precision.
   #
   options(digits.secs = 3)
+}
+
+.onAttach <- function(libname, pkgname) {
 }
