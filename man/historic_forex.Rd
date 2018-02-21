@@ -4,12 +4,14 @@
 \alias{historic_forex}
 \title{Retrieve historic data for a currency pair}
 \usage{
-historic_forex(pair, date, limit = 100)
+historic_forex(pair, date, offset = 0, limit = 100)
 }
 \arguments{
 \item{pair}{Currency pair}
 
 \item{date}{Date}
+
+\item{offset}{Offset in seconds from date.}
 
 \item{limit}{Number of records to retrieve}
 }
@@ -22,5 +24,6 @@ Retrieve historic data for a currency pair
 \examples{
 \dontrun{
 historic_forex("AUD/USD", "2018-02-02", limit = 20)
+historic_forex("AUD/USD", "2018-02-02", offset = 43200, limit = 20)
 }
 }

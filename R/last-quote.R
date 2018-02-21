@@ -23,7 +23,7 @@ last_quote_forex <- function(pair) {
   result$last %>%
     as_tibble() %>%
     mutate(
-      timestamp = timestamp(timestamp),
+      timestamp = timestamp_to_posix(timestamp),
       pair = pair
     ) %>%
     select(-exchange) %>%
