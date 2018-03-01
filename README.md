@@ -30,7 +30,7 @@ Load the package along with other libraries you will need:
 
 ```{r, eval=FALSE}
 
-pacman::p_load(polygonr, dplyr, httr, jsonlite, tidyverse, stringr, hms)
+pacman::p_load(polygon, dplyr, httr, jsonlite, tidyverse, stringr, hms)
 
 ```
 
