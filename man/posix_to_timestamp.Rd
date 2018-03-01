@@ -15,3 +15,8 @@ posix_to_timestamp(posix)
 \description{
 Converts POSIXct to numeric timestamp
 }
+\examples{
+\dontrun{
+posix_to_timestamp("2018-02-02 00:00:05.225")
+}
+}

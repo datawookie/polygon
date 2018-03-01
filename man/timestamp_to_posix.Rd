@@ -16,5 +16,7 @@ POSIXct
 Converts numeric timestamp into POSIXct
 }
 \examples{
+\dontrun{
 timestamp_to_posix(1517529605225)
+}
 }
