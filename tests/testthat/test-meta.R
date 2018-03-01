@@ -1,5 +1,7 @@
 context("meta")
 
+API_KEY = Sys.getenv("POLYGON_KEY")
+
 test_that("meta_symbols() returns appropriate data frame", {
   symbols = meta_symbols()
   #
